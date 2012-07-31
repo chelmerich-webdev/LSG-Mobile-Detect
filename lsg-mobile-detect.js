@@ -1,6 +1,11 @@
-/* Update the site_root agrument according to your site,
- * for example, 'thisoldhouse.com/toh' or 'realsimple.com'.
- * Leave off the 'www' subdomain, otherwise will not work.
+/* lsg-mobile.detect.js Version 1.0
+ * 31 July 2012
+ * Curt Helmerich
+ *
+ * Update the site_root agrument according to your site, for example: 
+ * 'thisoldhouse.com/toh' or 'realsimple.com'.
+ *
+ * Leave off any subdomains, otherwise will not work.
  */
 
 (function (site_root, window, document, user_agent) {
